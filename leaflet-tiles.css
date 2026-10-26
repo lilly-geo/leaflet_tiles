@@ -1,0 +1,15 @@
+html, body { margin: 0; height: 100%; }
+#map { height: 100%; width: 100%; }
+ 
+.info-window {
+    background: rgba(255, 255, 255, 0.92);
+    padding: 10px 14px;
+    border-radius: 6px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+    font: 14px/1.4 Arial, Helvetica, sans-serif;
+    max-width: 320px;
+}
+.info-window h4 { margin: 0 0 6px; font-size: 16px; }
+.info-window p { margin: 0 0 6px; }
+.info-window .provider { margin: 0; font-size: 13px; }
+ 
